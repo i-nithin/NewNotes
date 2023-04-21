@@ -1,0 +1,77 @@
+.note-card {
+  background-color: var(--color-background-accent);
+  border-radius: 0.5rem;
+  width: auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  color: var(--color-foreground);
+  padding: 1rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+
+.note-title {
+  font-size: 1.5rem;
+  width: 90%;
+  word-break: break-word;
+}
+
+.note-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.note-card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-default {
+  background-color: var(--color-background-accent);
+}
+
+.color-note-first {
+  background-color: var(--color-note-first);
+}
+.color-note-second {
+  background-color: var(--color-note-second);
+}
+.color-note-third {
+  background-color: var(--color-note-third);
+}
+
+.badge-text {
+  border: 2px solid var(--color-foreground);
+  background-color: var(--color-foreground-accent);
+  color: var(--color-background-accent);
+  align-items: center;
+  gap: 2px;
+}
+.badge-text .icon-btn {
+  color: var(--color-background-accent);
+}
+
+.badge-text .icon-btn:hover {
+  color: var(--color-foreground-accent);
+}
+.badge-text-container {
+  display: flex;
+  gap: 8px;
+}
+
+.tag-container {
+  display: flex;
+  height: 2.5rem;
+  gap: 10px;
+  align-items: center;
+}
+
+.badge-priority {
+  display: inline-block;
+  border: 2px solid var(--color-foreground-accent);
+  padding: 4px;
+  border-radius: 5px;
+}

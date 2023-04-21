@@ -1,0 +1,23 @@
+.quill {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+.quill .ql-toolbar.ql-snow {
+  box-sizing: border-box;
+  font-family: inherit;
+  padding: 0.5rem;
+  border: 0;
+  background-color: var(--gray-200);
+  border-radius: 8px;
+}
+
+.ql-snow .ql-editor.ql-blank::before {
+  color: var(--color-foreground);
+  font-style: normal;
+}
+
+.quill .ql-container.ql-snow {
+  border: 0;
+}

@@ -1,0 +1,136 @@
+@import url("https://neonui.netlify.app/css/main.css");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+:root {
+  --color-background-primary: #58d65f;
+  --color-background-accent-primary: #84ff637d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  font-family: "Varela Round", sans-serif !important;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+}
+
+.dark-theme {
+  --color-background: #222831;
+  --color-background-accent: #353638;
+
+  --color-foreground: #ffffff;
+  --color-foreground-accent: #f0f0ed;
+
+  --color-note-first: #2b7d30;
+  --color-note-second: #a33452;
+  --color-note-third: #816728;
+}
+
+.light-theme {
+  --color-background: #ffffff;
+  --color-background-accent: #f0f0ed;
+
+  --color-foreground: #222831;
+  --color-foreground-accent: #353638;
+
+  --color-note-first: #70dc76;
+  --color-note-second: #ed5e84;
+  --color-note-third: #feca4d;
+}
+
+@media screen and (max-width: 40em) {
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  img,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video,
+  button {
+    font-size: 95%;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

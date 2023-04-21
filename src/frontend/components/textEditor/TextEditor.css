@@ -1,0 +1,98 @@
+.main-textEditor {
+  margin-top: 0.938rem;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text-editor-container {
+  max-width: 31rem;
+  background-color: var(--color-background-accent);
+  color: var(--color-foreground);
+  padding: 0.5rem;
+  border-radius: 5px;
+  gap: 1rem;
+  box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px;
+}
+
+.text-editor-title {
+  outline: none;
+  width: 94%;
+  margin-left: 13px;
+}
+.text-editor-title::placeholder {
+  color: var(--color-foreground);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.icon-btn {
+  background-color: inherit;
+}
+.icon-btn:hover {
+  background-color: var(--color-background);
+}
+
+.color-tooltip {
+  position: absolute;
+  left: 40px;
+  padding: 1rem 0.5rem;
+  top: 6px;
+  background-color: #8e9292;
+  border: 1px solid var(--color-foreground-accent);
+  border-radius: 4px;
+  display: flex;
+}
+.active-color-btn {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 4px;
+  background-color: var(--gray-200);
+  border: 2px solid var(--color-foreground-accent);
+  border-radius: 50%;
+}
+.color-btn {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin: 4px;
+  background-color: var(--gray-200);
+  border-radius: 50%;
+}
+
+.label-tooltip {
+  position: absolute;
+  padding: 1rem 0.5rem;
+  top: 3rem;
+  width: 8rem;
+  background-color: var(--color-background-accent);
+  border: 1px solid var(--color-foreground-accent);
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-input {
+  border: 1px solid var(--color-foreground-accent);
+  padding: 2px;
+  border-radius: 5px;
+  width: -webkit-fill-available;
+}
+
+.label-tooltip .notesy-btn {
+  height: auto;
+  margin-left: 5px;
+}
+
+.badge-text .icon-btn {
+  width: 15px;
+  height: 15px;
+}
